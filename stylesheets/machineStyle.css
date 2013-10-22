@@ -1,0 +1,43 @@
+#redSlider,
+#greenSlider,
+#blueSlider {
+	width: 150px;
+	margin: 15px;
+}
+
+#redSlider   .ui-slider-range { background: #fcc; }
+#greenSlider .ui-slider-range { background: #cfc; }
+#blueSlider  .ui-slider-range { background: #ccf; }
+
+
+#redSlider   .ui-slider-handle { border-color: #ff3030; background: #faa }
+#greenSlider .ui-slider-handle { border-color: #30ff30; background: #afa }
+#blueSlider  .ui-slider-handle { border-color: #3030ff; background: #aaf }
+
+
+#widthPicker  .ui-slider-range  { background: #eee; }
+#widthPicker  .ui-slider-handle { border-color: #aaa; background: #ddd }
+
+#drawingToolbox {
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	float: left;
+}
+
+#blah {
+    float: left;
+}
+
+#swatch {
+	background-color: #000;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 150px;
+	height: 1px;
+	margin: 15px;
+}
+
+#widthPicker {
+	width: 150px;
+	margin: 15px;
+}
