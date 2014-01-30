@@ -93,7 +93,8 @@ function commit( ) {
 function redraw( ) {
 	var canvas = $('#machineCanvas')[0];
 	var c = canvas.getContext( "2d" );
-
+	c.fillStyle="#FFFFFF";
+	c.globalAlpha = 0.3;
 	c.clearRect( canvas.width, canvas.height );
 
 	for ( var i in machineData.lines ) {
