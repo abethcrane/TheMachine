@@ -24,8 +24,13 @@
 	float: left;
 }
 
-#blah {
+#demo {
+    display: inline-block;
+}
+
+#canvas {
     float: left;
+    background-color: white;
 }
 
 #swatch {
